@@ -6,6 +6,7 @@ const showdown = require('showdown')
 
 // After requiring the module, use it as extension
 let converter = new showdown.Converter({
+    // That's it
     extensions: [showdownHighlight]
 });
 
