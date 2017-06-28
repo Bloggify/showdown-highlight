@@ -6,6 +6,8 @@
 
 > A Showdown extension for highlight the code blocks.
 
+This package uses [`highlight.js`](https://highlightjs.org) to highlight code blocks in [Showdown](https://github.com/showdownjs/showdown) output. :rocket:
+
 ## :cloud: Installation
 
 ```sh
