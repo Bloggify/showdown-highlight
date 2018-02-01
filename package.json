@@ -50,6 +50,6 @@
     "description": "This package uses [`highlight.js`](https://highlightjs.org) to highlight code blocks in [Showdown](https://github.com/showdownjs/showdown) output. :rocket:"
   },
   "contributors": [
-       "Cristiano Ribeiro <expedit@gmail.com> (https://github.com/expedit85)"
-    ]
+    "Cristiano Ribeiro <expedit@gmail.com> (https://github.com/expedit85)"
+  ]
 }
