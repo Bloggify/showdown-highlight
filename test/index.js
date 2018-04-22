@@ -22,6 +22,7 @@ sayHello("Hello World", "Johnny");
 \`\`\`
         `);
 
+        t.expect(html.includes('hljs js language-js')).toEqual(true);
         t.expect(html.includes("hljs-string")).toEqual(true);
     });
 });
