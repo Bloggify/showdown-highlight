@@ -81,8 +81,11 @@ If you are using this library in one of your projects, add it in this list. :spa
 
 
  - [`bloggify-markdown-highlight`](https://github.com/Bloggify/bloggify-markdown-highlight#readme) (by Bloggify)—Highlight code blocks in the Markdown code.
+ - [`ember-showdown-highlight`](https://npmjs.com/package/ember-showdown-highlight)—The default blueprint for ember-cli addons.
  - [`markdown2dash`](https://github.com/eyworldwide/markdown2dash#readme) (by Bob)—Convert markdown files to Dash docset in CLI
+ - [`md-srv`](https://npmjs.com/package/md-srv) (by aikei)—a simple server, converting served .md files to html
  - [`swanky`](https://github.com/swanky-docs/swanky#readme) (by Rod Leviton)—A simple, flexible and powerful tool for creating beautiful documentation.
+ - [`trumpdoc`](https://npmjs.com/package/trumpdoc)—# Features - 😄 Suuuupppper easy to build. Do not need any shiz to build.(such as webpack) - 👍 Simple and powerful, pure React application - 😈 Manage your documentation like a president - 📄 code-block styles
 
 ## :scroll: License
 
