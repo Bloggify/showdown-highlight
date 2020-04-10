@@ -15,7 +15,7 @@
     "blocks"
   ],
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "2.1.4",
   "main": "lib/index.js",
   "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
   "files": [
