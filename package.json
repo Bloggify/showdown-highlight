@@ -39,12 +39,12 @@
   },
   "homepage": "https://github.com/Bloggify/showdown-highlight#readme",
   "dependencies": {
-    "highlight.js": "^10.4.1",
-    "html-encoder-decoder": "^1.3.8",
+    "highlight.js": "^10.5.0",
+    "html-encoder-decoder": "^1.3.9",
     "showdown": "^1.9.1"
   },
   "devDependencies": {
-    "tester": "^1.4.4"
+    "tester": "^1.4.5"
   },
   "blah": {
     "description": "This package uses [`highlight.js`](https://highlightjs.org) to highlight code blocks in [Showdown](https://github.com/showdownjs/showdown) output. :rocket:"

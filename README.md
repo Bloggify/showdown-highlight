@@ -175,12 +175,15 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `md-srv`
  - `md-browse`
  - `showit`
- - `chimpsky`
  - `showdown-html`
  - `callete`
  - `swanky`
+ - `textbase`
+ - `docset-tools-markdown`
+ - `chimpsky`
  - `tutors-html`
  - `@etermind/alex`
+ - `@webqit/oohtml-cli`
 
 
 
