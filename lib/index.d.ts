@@ -1,4 +1,6 @@
-import type { ShowdownExtension } from 'showdown';
+import type { ShowdownExtension } from "showdown";
 
-declare function showdownHighlight(): ShowdownExtension[];
+declare function showdownHighlight({
+  pre: Boolean = false,
+}): ShowdownExtension[];
 export = showdownHighlight;
