@@ -7,7 +7,10 @@ const showdown = require('showdown')
 // After requiring the module, use it as extension
 let converter = new showdown.Converter({
     // That's it
-    extensions: [showdownHighlight]
+    extensions: [showdownHighlight({
+        // Whether to add the classes to the <pre> tag
+        pre: true
+    })]
 });
 
 // Now you can Highlight code blocks

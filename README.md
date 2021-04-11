@@ -81,7 +81,10 @@ const showdown = require('showdown')
 // After requiring the module, use it as extension
 let converter = new showdown.Converter({
     // That's it
-    extensions: [showdownHighlight]
+    extensions: [showdownHighlight({
+        // Whether to add the classes to the <pre> tag
+        pre: true
+    })]
 });
 
 // Now you can Highlight code blocks
@@ -130,6 +133,30 @@ There are few ways to get help:
  2. For bug reports and feature requests, open issues. :bug:
 
 
+
+
+
+## :memo: Documentation
+
+
+### `showdownHighlight()`
+Highlight the code in the showdown input.
+
+Examples:
+
+```js
+let converter = new showdown.Converter({
+    extensions: [showdownHighlight]
+});
+```
+
+Enable the classes in the `<pre>` element:
+
+```js
+let converter = new showdown.Converter({
+    extensions: [showdownHighlight({ pre: true })]
+});
+```
 
 
 
