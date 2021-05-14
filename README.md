@@ -206,11 +206,13 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `callete`
  - `swanky`
  - `textbase`
- - `docset-tools-markdown`
  - `chimpsky`
  - `tutors-html`
  - `@etermind/alex`
  - `@webqit/oohtml-cli`
+ - `docset-tools-markdown`
+ - `examma-ray`
+ - `steelsky`
 
 
 
