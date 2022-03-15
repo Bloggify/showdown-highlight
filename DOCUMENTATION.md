@@ -10,7 +10,7 @@ Examples:
 ```js
 let converter = new showdown.Converter({
     extensions: [showdownHighlight]
-});
+})
 ```
 
 Enable the classes in the `<pre>` element:
@@ -18,6 +18,6 @@ Enable the classes in the `<pre>` element:
 ```js
 let converter = new showdown.Converter({
     extensions: [showdownHighlight({ pre: true })]
-});
+})
 ```
 

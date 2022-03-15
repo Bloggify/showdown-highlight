@@ -147,7 +147,7 @@ Examples:
 ```js
 let converter = new showdown.Converter({
     extensions: [showdownHighlight]
-});
+})
 ```
 
 Enable the classes in the `<pre>` element:
@@ -155,7 +155,7 @@ Enable the classes in the `<pre>` element:
 ```js
 let converter = new showdown.Converter({
     extensions: [showdownHighlight({ pre: true })]
-});
+})
 ```
 
 
@@ -194,25 +194,31 @@ If you are using this library in one of your projects, add it in this list. :spa
 
  - `mdpdf`
  - `bloggify-markdown-highlight`
- - `@kev_nz/publisher`
  - `md-toy-blog`
- - `markdown2dash`
- - `ember-showdown-highlight`
- - `trumpdoc`
- - `md-srv`
- - `md-browse`
- - `showit`
- - `showdown-html`
- - `callete`
- - `swanky`
- - `textbase`
- - `chimpsky`
- - `tutors-html`
- - `@etermind/alex`
+ - `@kev_nz/publisher`
  - `@webqit/oohtml-cli`
+ - `swanky`
+ - `@etermind/alex`
+ - `@siradoc/siradoc`
+ - `md-srv`
  - `docset-tools-markdown`
- - `examma-ray`
+ - `callete`
+ - `trumpdoc`
+ - `ui_kitchenadmincenter`
+ - `textbase`
  - `steelsky`
+ - `md-browse`
+ - `markdown2dash`
+ - `showdown-html`
+ - `teroshdl`
+ - `tutors-reader-lib`
+ - `busi-ui`
+ - `examma-ray`
+ - `tutors-html`
+ - `chimpsky`
+ - `@webqit/playui-cli`
+ - `showit`
+ - `ember-showdown-highlight`
 
 
 
