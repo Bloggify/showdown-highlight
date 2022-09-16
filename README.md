@@ -194,31 +194,36 @@ If you are using this library in one of your projects, add it in this list. :spa
 
  - `mdpdf`
  - `bloggify-markdown-highlight`
+ - `github-readme-to-html`
  - `md-toy-blog`
  - `@kev_nz/publisher`
- - `@webqit/oohtml-cli`
- - `swanky`
  - `@etermind/alex`
+ - `@web-native-js/chtml-cli`
  - `@siradoc/siradoc`
+ - `swanky`
  - `md-srv`
  - `docset-tools-markdown`
  - `callete`
- - `trumpdoc`
+ - `teroshdl2`
  - `ui_kitchenadmincenter`
- - `textbase`
- - `steelsky`
+ - `trumpdoc`
+ - `@peersky/next-web3-chakra`
+ - `mdpdf_jm`
+ - `busi-ui`
  - `md-browse`
  - `markdown2dash`
+ - `textbase`
  - `showdown-html`
  - `teroshdl`
- - `tutors-reader-lib`
- - `busi-ui`
- - `examma-ray`
  - `tutors-html`
+ - `tutors-html-beta`
+ - `tutors-reader-lib`
+ - `examma-ray`
+ - `steelsky`
  - `chimpsky`
- - `@webqit/playui-cli`
- - `showit`
  - `ember-showdown-highlight`
+ - `showit`
+ - `tutors-html-alpha`
 
 
 
