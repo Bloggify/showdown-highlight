@@ -54,7 +54,7 @@ sayHello("Hello World", "Johnny");
         })]
     })
 
-    t.should("process code block with language, when auto_detect disabled", () => {
+    t.should("process code block with language, when auto_detection disabled", () => {
         t.expect(converter_auto_disabled
             .makeHtml(CODEBLOCK_WITH_LANGUAGE)
             .includes('class="hljs js language-js"'))
@@ -65,7 +65,7 @@ sayHello("Hello World", "Johnny");
             .toEqual(true);
     })
 
-    t.should("not process code block with no language, when auto_detect disabled", () => {
+    t.should("not process code block with no language, when auto_detection disabled", () => {
         t.expect(converter_auto_disabled
             .makeHtml(CODEBLOCK_WITHOUT_LANGUAGE)
             .includes('hljs'))
