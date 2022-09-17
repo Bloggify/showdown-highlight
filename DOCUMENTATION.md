@@ -21,3 +21,10 @@ let converter = new showdown.Converter({
 })
 ```
 
+If you want to disable language [auto detection](https://highlightjs.org/usage/) feature of hljs, change `auto_detection` flag as `false`. With this option turned off, `showdown-highlight` will not process any codeblocks with no language specified.
+
+```js
+let converter = new showdown.Converter({
+    extensions: [showdownHighlight({ auto_detection: false })]
+})
+```
