@@ -82,8 +82,10 @@ const showdown = require('showdown')
 let converter = new showdown.Converter({
     // That's it
     extensions: [showdownHighlight({
-        // Whether to add the classes to the <pre> tag
+        // Whether to add the classes to the <pre> tag, default is false
         pre: true
+        // Whether to use hljs' auto language detection, default is true
+    ,   auto_detection: true
     })]
 });
 
@@ -158,6 +160,17 @@ let converter = new showdown.Converter({
 })
 ```
 
+If you want to disable language [auto detection](https://highlightjs.org/usage/)
+feature of hljs, change `auto_detection` flag as `false`. With this option
+turned off, `showdown-highlight` will not process any codeblocks with no
+language specified.
+
+```js
+let converter = new showdown.Converter({
+    extensions: [showdownHighlight({ auto_detection: false })]
+})
+```
+
 
 
 
@@ -198,8 +211,8 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `md-toy-blog`
  - `@kev_nz/publisher`
  - `@etermind/alex`
- - `@web-native-js/chtml-cli`
  - `@siradoc/siradoc`
+ - `@web-native-js/chtml-cli`
  - `swanky`
  - `md-srv`
  - `docset-tools-markdown`
@@ -209,15 +222,15 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `trumpdoc`
  - `@peersky/next-web3-chakra`
  - `mdpdf_jm`
+ - `textbase`
+ - `teroshdl`
+ - `showdown-html`
  - `busi-ui`
  - `md-browse`
  - `markdown2dash`
- - `textbase`
- - `showdown-html`
- - `teroshdl`
- - `tutors-html`
- - `tutors-html-beta`
  - `tutors-reader-lib`
+ - `tutors-html-beta`
+ - `tutors-html`
  - `examma-ray`
  - `steelsky`
  - `chimpsky`
