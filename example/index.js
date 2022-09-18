@@ -8,8 +8,10 @@ const showdown = require('showdown')
 let converter = new showdown.Converter({
     // That's it
     extensions: [showdownHighlight({
-        // Whether to add the classes to the <pre> tag
+        // Whether to add the classes to the <pre> tag, default is false
         pre: true
+        // Whether to use hljs' auto language detection, default is true
+    ,   auto_detection: true
     })]
 });
 
