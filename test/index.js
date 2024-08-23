@@ -12,14 +12,21 @@ function sayHello (msg, who) {
     return \`\${who} says: msg\`;
 }
 sayHello("Hello World", "Johnny");
-
 \`\`\``
+
     const CODEBLOCK_WITHOUT_LANGUAGE = `
 \`\`\`
 function sayHello (msg, who) {
     return \`\${who} says: msg\`;
 }
 sayHello("Hello World", "Johnny");
+\`\`\``
+
+    const CODEBLOCK_WITH_LANGUAGE_AND_ANNOTATION = `
+\`\`\`rust,no_run
+fn do_amazing_thing() -> i32 {
+   unimplemented!()
+}
 \`\`\``
 
     // After requiring the module, use it as extension
@@ -40,6 +47,12 @@ sayHello("Hello World", "Johnny");
         let html = converter.makeHtml(CODEBLOCK_WITHOUT_LANGUAGE);
 
         t.expect(html.includes('class="hljs"')).toEqual(true);
+    });
+
+    t.should("work with code block language and annotation", () => {
+        let html = converter.makeHtml(CODEBLOCK_WITH_LANGUAGE_AND_ANNOTATION);
+        t.expect(html.includes('class="hljs rust language-rust"')).toEqual(true);
+        t.expect(html.includes("hljs-type")).toEqual(true);
     });
 
     const converter_auto_disabled = new showdown.Converter({
